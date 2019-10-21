@@ -1,0 +1,64 @@
+/* colors:
+    peach puff: #F9DBBD
+    light salmon: #FCA17D
+    blush: #DA627D
+    raisin black: #221D23
+    smokey black: #090809
+via coolors.co */
+
+
+.navbar {
+  padding 1rem;
+  background-color: #DA627D;
+  color: #090809;
+}
+/* .btn-primary:hover {
+  background-color: pink;
+  color: pink;
+} */
+.btn {
+    background-color: #DA627D;
+    color: #090809;
+}
+.footer {
+    background-color: #DA627D;
+    color: #090809;
+    text-align: center;
+}
+.lead {
+    color: #F9DBBD;
+}
+.salmon {
+    color: #FCA17D;
+}
+/* .container {
+    background-color: #090809;
+} */
+.jumbotron {
+    background-color: #221D23;
+}
+.form-control {
+    background-color: #F9DBBD;
+}
+/* .hero-background-img {
+    background-image: url("pier-photo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:200px;
+    padding-bottom:200px;
+} */
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("pier-photo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
